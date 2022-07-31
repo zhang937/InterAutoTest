@@ -1,0 +1,15 @@
+report:
+pip install pytest-html -i https://pypi.tuna.tsinghua.edu.cn/simple
+pytest失败重试：
+pip install pytest-rerunfailures -i https://pypi.tuna.tsinghua.edu.cn/simple
+-- reruns n 重试次数
+-- reruns-delay 重试等待时间
+@pytest.mark.flaky(reruns=2,reruns_delay=5),表示失败后会重试两次,等待时间为5s
+--reruns 2 --reruns-delay=5
+pytest 参数化：
+    一个参数：
+    @pytest.mark.parametrize("login",login_data) login表示引用名称，login_data 表示参数化数据list。
+    多个参数
+    @pytest.mark.parametrize(("data","data2"),[(data[0],data2[0]),(data[1],data2[1])]) login表示引用名称，login_data 表示参数化数据list。
+
+断言:assert

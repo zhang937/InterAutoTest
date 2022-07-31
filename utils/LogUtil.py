@@ -29,7 +29,7 @@ class Logger:
             fh_stream=logging.StreamHandler()
             fh_file=logging.FileHandler( self.log_file, encoding="utf-8", mode="a" )
             formatter=logging.Formatter(
-                '[%(levelname)s][%(process)d][%(thread)d]--%(asctime)s--[%(filename)s %(funcName)s %(lineno)d]: %(message)s' )
+                '[%(levelname)s][%(process)d][%(thread)d]--%(asctime)s--[%(pathname)s %(funcName)s %(lineno)d]: %(message)s' )
 
             fh_stream.setLevel( log_l[self.log_level] )
             fh_file.setLevel( log_l[self.log_level] )
@@ -46,7 +46,8 @@ log_path=Conf.get_log_path()
 current_time=datetime.now().strftime( "%Y-%m-%d" )
 log_extension=ConfigYaml().get_conf_log_extension()
 logfile=os.path.join( log_path, current_time + log_extension )
-loglevel="debug"
+loglevel=ConfigYaml().get_conf_log()
+
 
 
 def my_log(log_nmae=__file__):
@@ -54,4 +55,4 @@ def my_log(log_nmae=__file__):
 
 
 if __name__ == '__main__':
-    my_log().debug( ("aaaaaaaaaaaaaaaaaa") )
+    my_log().debug( "aaaaaaaaaaaaaaaaaa")
