@@ -9,20 +9,19 @@ from config.Conf import ConfigYaml
 get post delete pull
 """
 
-# url="http://www.baidu.com"
+url="http://www.baidu.com"
 # token="111"
-# headers={
-#     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'
-# }
-# r=Request()
-# t=r.get(url,headers=headers)
-# print(t)
+headers={
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'
+}
+r=Request()
+t=r.get(url,headers=headers)
+
 # import yaml
 # with open("data_demo.yml",'r') as f:
 #     r = yaml.safe_load_all(f)
 #     for i in r:
 #         print(i)
 
-def
-aa=YamlReader("../config/conf.yaml").data()
-print(aa)
+# aa=YamlReader("../config/conf.yml").data()
+# print(aa)
