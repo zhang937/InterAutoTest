@@ -1,0 +1,15 @@
+env-1:
+ host:  "localhost"
+ user: "root"
+ password: "123456"
+ database: "systest"
+ charset: "utf8"
+ port: 3306
+
+env-2:
+ host:  "127.2.2.1"
+ user: "root"
+ password: "123476"
+ database: "systest"
+ charset: "utf8"
+ port: 3306

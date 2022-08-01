@@ -146,3 +146,101 @@
 [INFO][9180][1860]--2022-07-31 21:18:56,123--[E:\InterAutoTest\testcase\testcasedemo.py test_noteq 29]: 不等于校验lisi
 [INFO][9180][1860]--2022-07-31 21:18:56,135--[E:\InterAutoTest\testcase\testcasedemo.py teardown 22]: _______teardown______
 [INFO][9180][1860]--2022-07-31 21:18:56,135--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 16]: _______teardown_class______
+[INFO][8268][9060]--2022-07-31 22:09:46,294--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 15]: _______setup_class______
+[INFO][8268][9060]--2022-07-31 22:09:46,295--[E:\InterAutoTest\testcase\testcasedemo.py setup 22]: _______setup______
+[INFO][8268][9060]--2022-07-31 22:09:46,295--[E:\InterAutoTest\testcase\testcasedemo.py test_noteq 32]: 不等于校验zhangsan
+[INFO][8268][9060]--2022-07-31 22:09:46,296--[E:\InterAutoTest\testcase\testcasedemo.py teardown 25]: _______teardown______
+[INFO][8268][9060]--2022-07-31 22:09:46,298--[E:\InterAutoTest\testcase\testcasedemo.py setup 22]: _______setup______
+[INFO][8268][9060]--2022-07-31 22:09:46,299--[E:\InterAutoTest\testcase\testcasedemo.py test_noteq 32]: 不等于校验lisi
+[ERROR][8268][9060]--2022-07-31 22:09:46,299--[E:\InterAutoTest\utils\AssertUtil.py assert_body 34]: code error,body is 5 ,expected body is 4
+[INFO][8268][9060]--2022-07-31 22:09:46,382--[E:\InterAutoTest\testcase\testcasedemo.py teardown 25]: _______teardown______
+[INFO][8268][9060]--2022-07-31 22:09:46,383--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 19]: _______teardown_class______
+[INFO][8268][9060]--2022-07-31 22:09:51,386--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 15]: _______setup_class______
+[INFO][8268][9060]--2022-07-31 22:09:51,386--[E:\InterAutoTest\testcase\testcasedemo.py setup 22]: _______setup______
+[INFO][8268][9060]--2022-07-31 22:09:51,387--[E:\InterAutoTest\testcase\testcasedemo.py test_noteq 32]: 不等于校验lisi
+[ERROR][8268][9060]--2022-07-31 22:09:51,387--[E:\InterAutoTest\utils\AssertUtil.py assert_body 34]: code error,body is 5 ,expected body is 4
+[INFO][8268][9060]--2022-07-31 22:09:51,394--[E:\InterAutoTest\testcase\testcasedemo.py teardown 25]: _______teardown______
+[INFO][8268][9060]--2022-07-31 22:09:51,395--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 19]: _______teardown_class______
+[INFO][8268][9060]--2022-07-31 22:09:56,396--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 15]: _______setup_class______
+[INFO][8268][9060]--2022-07-31 22:09:56,397--[E:\InterAutoTest\testcase\testcasedemo.py setup 22]: _______setup______
+[INFO][8268][9060]--2022-07-31 22:09:56,398--[E:\InterAutoTest\testcase\testcasedemo.py test_noteq 32]: 不等于校验lisi
+[ERROR][8268][9060]--2022-07-31 22:09:56,399--[E:\InterAutoTest\utils\AssertUtil.py assert_body 34]: code error,body is 5 ,expected body is 4
+[INFO][8268][9060]--2022-07-31 22:09:56,423--[E:\InterAutoTest\testcase\testcasedemo.py teardown 25]: _______teardown______
+[INFO][8268][9060]--2022-07-31 22:09:56,423--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 19]: _______teardown_class______
+[INFO][10964][11460]--2022-07-31 22:13:54,225--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 15]: _______setup_class______
+[INFO][10964][11460]--2022-07-31 22:13:54,225--[E:\InterAutoTest\testcase\testcasedemo.py setup 22]: _______setup______
+[INFO][10964][11460]--2022-07-31 22:13:54,226--[E:\InterAutoTest\testcase\testcasedemo.py test_noteq 32]: 不等于校验name
+[INFO][10964][11460]--2022-07-31 22:13:54,226--[E:\InterAutoTest\testcase\testcasedemo.py teardown 25]: _______teardown______
+[INFO][10964][11460]--2022-07-31 22:13:54,229--[E:\InterAutoTest\testcase\testcasedemo.py setup 22]: _______setup______
+[INFO][10964][11460]--2022-07-31 22:13:54,229--[E:\InterAutoTest\testcase\testcasedemo.py test_noteq 32]: 不等于校验name
+[ERROR][10964][11460]--2022-07-31 22:13:54,229--[E:\InterAutoTest\utils\AssertUtil.py assert_body 34]: code error,body is 5 ,expected body is 4
+[INFO][10964][11460]--2022-07-31 22:13:54,306--[E:\InterAutoTest\testcase\testcasedemo.py teardown 25]: _______teardown______
+[INFO][10964][11460]--2022-07-31 22:13:54,306--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 19]: _______teardown_class______
+[INFO][10964][11460]--2022-07-31 22:13:59,308--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 15]: _______setup_class______
+[INFO][10964][11460]--2022-07-31 22:13:59,308--[E:\InterAutoTest\testcase\testcasedemo.py setup 22]: _______setup______
+[INFO][10964][11460]--2022-07-31 22:13:59,309--[E:\InterAutoTest\testcase\testcasedemo.py test_noteq 32]: 不等于校验name
+[ERROR][10964][11460]--2022-07-31 22:13:59,309--[E:\InterAutoTest\utils\AssertUtil.py assert_body 34]: code error,body is 5 ,expected body is 4
+[INFO][10964][11460]--2022-07-31 22:13:59,316--[E:\InterAutoTest\testcase\testcasedemo.py teardown 25]: _______teardown______
+[INFO][10964][11460]--2022-07-31 22:13:59,317--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 19]: _______teardown_class______
+[INFO][10964][11460]--2022-07-31 22:14:04,318--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 15]: _______setup_class______
+[INFO][10964][11460]--2022-07-31 22:14:04,318--[E:\InterAutoTest\testcase\testcasedemo.py setup 22]: _______setup______
+[INFO][10964][11460]--2022-07-31 22:14:04,319--[E:\InterAutoTest\testcase\testcasedemo.py test_noteq 32]: 不等于校验name
+[ERROR][10964][11460]--2022-07-31 22:14:04,319--[E:\InterAutoTest\utils\AssertUtil.py assert_body 34]: code error,body is 5 ,expected body is 4
+[INFO][10964][11460]--2022-07-31 22:14:04,338--[E:\InterAutoTest\testcase\testcasedemo.py teardown 25]: _______teardown______
+[INFO][10964][11460]--2022-07-31 22:14:04,339--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 19]: _______teardown_class______
+[INFO][7496][9932]--2022-07-31 23:29:28,684--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 16]: _______setup_class______
+[INFO][7496][9932]--2022-07-31 23:29:28,685--[E:\InterAutoTest\testcase\testcasedemo.py setup 23]: _______setup______
+[INFO][7496][9932]--2022-07-31 23:29:28,700--[E:\InterAutoTest\testcase\testcasedemo.py test_mysql 42]: 数据库验证
+[INFO][7496][9932]--2022-07-31 23:29:28,700--[E:\InterAutoTest\testcase\testcasedemo.py teardown 26]: _______teardown______
+[INFO][7496][9932]--2022-07-31 23:29:28,701--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 20]: _______teardown_class______
+[INFO][14880][1088]--2022-07-31 23:29:57,781--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 16]: _______setup_class______
+[INFO][14880][1088]--2022-07-31 23:29:57,781--[E:\InterAutoTest\testcase\testcasedemo.py setup 23]: _______setup______
+[INFO][14880][1088]--2022-07-31 23:29:57,796--[E:\InterAutoTest\testcase\testcasedemo.py test_mysql 42]: 数据库验证
+[INFO][14880][1088]--2022-07-31 23:29:57,797--[E:\InterAutoTest\testcase\testcasedemo.py teardown 26]: _______teardown______
+[INFO][14880][1088]--2022-07-31 23:29:57,797--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 20]: _______teardown_class______
+[INFO][7596][12804]--2022-07-31 23:30:30,189--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 16]: _______setup_class______
+[INFO][7596][12804]--2022-07-31 23:30:30,190--[E:\InterAutoTest\testcase\testcasedemo.py setup 23]: _______setup______
+[INFO][7596][12804]--2022-07-31 23:30:30,204--[E:\InterAutoTest\testcase\testcasedemo.py test_mysql 42]: 数据库验证,root
+[INFO][7596][12804]--2022-07-31 23:30:30,205--[E:\InterAutoTest\testcase\testcasedemo.py teardown 26]: _______teardown______
+[INFO][7596][12804]--2022-07-31 23:30:30,205--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 20]: _______teardown_class______
+[INFO][12360][13424]--2022-07-31 23:30:46,297--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 16]: _______setup_class______
+[INFO][12360][13424]--2022-07-31 23:30:46,298--[E:\InterAutoTest\testcase\testcasedemo.py setup 23]: _______setup______
+[INFO][12360][13424]--2022-07-31 23:30:46,313--[E:\InterAutoTest\testcase\testcasedemo.py test_mysql 42]: 数据库验证,root
+[INFO][12360][13424]--2022-07-31 23:30:46,314--[E:\InterAutoTest\testcase\testcasedemo.py teardown 26]: _______teardown______
+[INFO][12360][13424]--2022-07-31 23:30:46,314--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 20]: _______teardown_class______
+[INFO][4296][8136]--2022-07-31 23:35:16,918--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 16]: _______setup_class______
+[INFO][4296][8136]--2022-07-31 23:35:16,918--[E:\InterAutoTest\testcase\testcasedemo.py setup 23]: _______setup______
+[INFO][4296][8136]--2022-07-31 23:35:17,012--[E:\InterAutoTest\testcase\testcasedemo.py teardown 26]: _______teardown______
+[INFO][4296][8136]--2022-07-31 23:35:17,013--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 20]: _______teardown_class______
+[INFO][4296][8136]--2022-07-31 23:35:22,014--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 16]: _______setup_class______
+[INFO][4296][8136]--2022-07-31 23:35:22,014--[E:\InterAutoTest\testcase\testcasedemo.py setup 23]: _______setup______
+[INFO][4296][8136]--2022-07-31 23:35:22,029--[E:\InterAutoTest\testcase\testcasedemo.py teardown 26]: _______teardown______
+[INFO][4296][8136]--2022-07-31 23:35:22,030--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 20]: _______teardown_class______
+[INFO][4296][8136]--2022-07-31 23:35:27,031--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 16]: _______setup_class______
+[INFO][4296][8136]--2022-07-31 23:35:27,031--[E:\InterAutoTest\testcase\testcasedemo.py setup 23]: _______setup______
+[INFO][4296][8136]--2022-07-31 23:35:27,045--[E:\InterAutoTest\testcase\testcasedemo.py teardown 26]: _______teardown______
+[INFO][4296][8136]--2022-07-31 23:35:27,046--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 20]: _______teardown_class______
+[INFO][8744][9112]--2022-07-31 23:35:50,073--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 16]: _______setup_class______
+[INFO][8744][9112]--2022-07-31 23:35:50,073--[E:\InterAutoTest\testcase\testcasedemo.py setup 23]: _______setup______
+[INFO][8744][9112]--2022-07-31 23:35:50,087--[E:\InterAutoTest\testcase\testcasedemo.py test_mysql 42]: 登录数据库环境env-1成功
+[INFO][8744][9112]--2022-07-31 23:35:50,088--[E:\InterAutoTest\testcase\testcasedemo.py test_mysql 44]: 数据库验证,root
+[INFO][8744][9112]--2022-07-31 23:35:50,089--[E:\InterAutoTest\testcase\testcasedemo.py teardown 26]: _______teardown______
+[INFO][8744][9112]--2022-07-31 23:35:50,089--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 20]: _______teardown_class______
+[INFO][1748][12708]--2022-07-31 23:41:02,061--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 16]: _______setup_class______
+[INFO][1748][12708]--2022-07-31 23:41:02,062--[E:\InterAutoTest\testcase\testcasedemo.py setup 23]: _______setup______
+[INFO][1748][12708]--2022-07-31 23:41:02,076--[E:\InterAutoTest\testcase\testcasedemo.py test_mysql 42]: 登录数据库环境env-1成功
+[INFO][1748][12708]--2022-07-31 23:41:02,077--[E:\InterAutoTest\testcase\testcasedemo.py test_mysql 44]: 数据库验证,{'name': 'root', 'password': '1'}
+[INFO][1748][12708]--2022-07-31 23:41:02,078--[E:\InterAutoTest\testcase\testcasedemo.py teardown 26]: _______teardown______
+[INFO][1748][12708]--2022-07-31 23:41:02,078--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 20]: _______teardown_class______
+[INFO][14584][1652]--2022-07-31 23:41:49,521--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 16]: _______setup_class______
+[INFO][14584][1652]--2022-07-31 23:41:49,522--[E:\InterAutoTest\testcase\testcasedemo.py setup 23]: _______setup______
+[INFO][14584][1652]--2022-07-31 23:41:49,535--[E:\InterAutoTest\testcase\testcasedemo.py test_mysql 42]: 登录数据库环境env-1成功
+[INFO][14584][1652]--2022-07-31 23:41:49,536--[E:\InterAutoTest\testcase\testcasedemo.py test_mysql 44]: 数据库验证,{'name': 'root', 'password': '1'}
+[INFO][14584][1652]--2022-07-31 23:41:49,537--[E:\InterAutoTest\testcase\testcasedemo.py teardown 26]: _______teardown______
+[INFO][14584][1652]--2022-07-31 23:41:49,537--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 20]: _______teardown_class______
+[INFO][3596][13096]--2022-07-31 23:42:22,575--[E:\InterAutoTest\testcase\testcasedemo.py setup_class 16]: _______setup_class______
+[INFO][3596][13096]--2022-07-31 23:42:22,575--[E:\InterAutoTest\testcase\testcasedemo.py setup 23]: _______setup______
+[INFO][3596][13096]--2022-07-31 23:42:22,590--[E:\InterAutoTest\testcase\testcasedemo.py test_mysql 42]: 登录数据库环境env-1成功
+[INFO][3596][13096]--2022-07-31 23:42:22,590--[E:\InterAutoTest\testcase\testcasedemo.py test_mysql 44]: 数据库验证,{'name': 'root', 'password': '1'}
+[INFO][3596][13096]--2022-07-31 23:42:22,591--[E:\InterAutoTest\testcase\testcasedemo.py teardown 26]: _______teardown______
+[INFO][3596][13096]--2022-07-31 23:42:22,591--[E:\InterAutoTest\testcase\testcasedemo.py teardown_class 20]: _______teardown_class______

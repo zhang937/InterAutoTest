@@ -27,5 +27,20 @@ get post delete pull
 # aa=YamlReader("../config/conf.yml").data()
 # print(aa)
 
-import pytest
-print(pytest.__version__)
+# import os
+# from config import Conf
+# print(os.path.join(Conf.get_data_path(),"testlogin.yml"))
+import  xlrd2
+book=xlrd2.open_workbook("../data/requeststest.xlsx")
+# sheet=book.sheet_by_index(0)
+sheet=book.sheet_by_name("美多商城接口测试用例")
+rows=sheet.nrows
+cols=sheet.ncols
+jsondata=list()
+for i in range(rows):
+    r_values=sheet.row_values(0)
+    if i >=1:
+        r_values1=sheet.row_values(i)
+        jsondata.append(dict(zip(r_values,r_values1)))
+print(jsondata)
+print(sheet.cell(1,2))#读取一行2列的内容。

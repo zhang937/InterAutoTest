@@ -1,7 +1,8 @@
----
-name: "zhangshan"
+
+name:
+  ff: "zhangshan"
 password: "123456"
----
+
 list:
   - 111
     555

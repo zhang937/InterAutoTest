@@ -4,13 +4,20 @@ import yaml
 
 
 class YamlReader:
+
     def __init__(self, yamlf):
+        """
+        yaml文件数据获取
+        :param yamlf:
+        """
         if os.path.exists( yamlf ):
-            self.yamlf=yamlf
+            self.yamlf = yamlf
         else:
-            raise FileNotFoundError( "文件不存在" )
+            raise FileNotFoundError( f"文件{self.yamlf}不存在" )
+
         self._data=None
         self._data_all=None
+
     def data(self):
         if not self._data:
             with open( self.yamlf, "rb" ) as f:
@@ -20,5 +27,5 @@ class YamlReader:
     def data_all(self):
         if not self._data_all:
             with open( self.yamlf, "rb" ) as f:
-                self._data_all=list(yaml.safe_load_all( f ))
+                self._data_all=list( yaml.safe_load_all( f ) )
         return self._data_all

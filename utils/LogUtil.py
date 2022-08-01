@@ -49,10 +49,9 @@ logfile=os.path.join( log_path, current_time + log_extension )
 loglevel=ConfigYaml().get_conf_log()
 
 
-
 def my_log(log_nmae=__file__):
     return Logger( log_file=logfile, log_name=log_nmae, log_level=loglevel ).logger
 
 
 if __name__ == '__main__':
-    my_log().debug( "aaaaaaaaaaaaaaaaaa")
+    my_log().debug( "aaaaaaaaaaaaaaaaaa" )

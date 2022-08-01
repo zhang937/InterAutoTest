@@ -1,0 +1,18 @@
+#测试用例名称
+case_name: "登录成功"
+#url地址
+url: "/authorizations/"
+#data
+data:
+  username: "root"
+  password: "123456"
+#期望值
+expect: '"user_id":1,"username":"root"'
+
+---
+case_name: "登录失败"
+url: "/authorizations/"
+data:
+  username: "root1"
+  password: "123456"
+expect: '"user_id":1,"username":"root"'
