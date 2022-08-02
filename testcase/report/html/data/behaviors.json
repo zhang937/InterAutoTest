@@ -1,0 +1,149 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试用例标题1",
+    "uid" : "af1b93c32233145d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1659437794114,
+      "stop" : 1659437794114,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "测试用例标题2",
+    "uid" : "a82ae03a68f04c24",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1659437794118,
+      "stop" : 1659437794118,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "测试用例标题3",
+    "uid" : "1a118d1d8ad1f605",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1659438201287,
+      "stop" : 1659438201287,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "接口测试，只是用一级标签",
+    "children" : [ {
+      "name" : "只是一个二级标签",
+      "children" : [ {
+        "name" : "测试用例标题1",
+        "uid" : "691bcff54298b97a",
+        "parentUid" : "ab429aee6747a42f6abd7a939fbee5aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659439344126,
+          "stop" : 1659439344127,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题2",
+        "uid" : "b5df6bc5a5e82de4",
+        "parentUid" : "ab429aee6747a42f6abd7a939fbee5aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659439344130,
+          "stop" : 1659439344131,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab429aee6747a42f6abd7a939fbee5aa"
+    }, {
+      "name" : "this Test Name is  Zhangsan",
+      "uid" : "47717fbde818b43b",
+      "parentUid" : "165cae2de3c4094d20422aec3d63a960",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659439615157,
+        "stop" : 1659439615157,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "'Zhangsan'" ]
+    }, {
+      "name" : "this Test Name is  lisi",
+      "uid" : "be8244924dd92b8e",
+      "parentUid" : "165cae2de3c4094d20422aec3d63a960",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659439615163,
+        "stop" : 1659439615163,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "'lisi'" ]
+    }, {
+      "name" : "测试用例标题3",
+      "uid" : "82e3813cf6d9a1f4",
+      "parentUid" : "165cae2de3c4094d20422aec3d63a960",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659440630075,
+        "stop" : 1659440630075,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "165cae2de3c4094d20422aec3d63a960"
+  } ]
+}

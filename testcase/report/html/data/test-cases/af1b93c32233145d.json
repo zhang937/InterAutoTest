@@ -1,0 +1,65 @@
+{
+  "uid" : "af1b93c32233145d",
+  "name" : "测试用例标题1",
+  "fullName" : "testcase.alluretest#test_1",
+  "historyId" : "06a2fe422a6312a7ec79bacacd71eb75",
+  "time" : {
+    "start" : 1659437794114,
+    "stop" : 1659437794114,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "alluretest"
+  }, {
+    "name" : "host",
+    "value" : "PC-20210109YDJH"
+  }, {
+    "name" : "thread",
+    "value" : "4272-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.alluretest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9b015fbe97211acb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659437363046,
+        "stop" : 1659437363046,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af1b93c32233145d.json",
+  "parameterValues" : [ ]
+}

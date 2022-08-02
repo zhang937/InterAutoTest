@@ -1,0 +1,68 @@
+{
+  "uid" : "a8e061da86b65c4c",
+  "name" : "测试用例标题1",
+  "fullName" : "testcase.alluretest.TestAllure#test_1",
+  "historyId" : "8d085a7d66bf99eaecf4caaf2096184f",
+  "time" : {
+    "start" : 1659438630227,
+    "stop" : 1659438630227,
+    "duration" : 0
+  },
+  "description" : "测试用例1,打印",
+  "descriptionHtml" : "<p>测试用例1,打印</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: test_1() takes 0 positional arguments but 1 was given",
+  "statusTrace" : "cls = <class '_pytest.runner.CallInfo'>\nfunc = <function call_runtest_hook.<locals>.<lambda> at 0x00000246225260D8>\nwhen = 'call'\nreraise = (<class '_pytest.outcomes.Exit'>, <class 'KeyboardInterrupt'>)\n\n    @classmethod\n    def from_call(\n        cls,\n        func: \"Callable[[], TResult]\",\n        when: \"Literal['collect', 'setup', 'call', 'teardown']\",\n        reraise: \"Optional[Union[Type[BaseException], Tuple[Type[BaseException], ...]]]\" = None,\n    ) -> \"CallInfo[TResult]\":\n        excinfo = None\n        start = timing.time()\n        precise_start = timing.perf_counter()\n        try:\n>           result = func()  # type: Optional[TResult]\n\nD:\\Python37\\lib\\site-packages\\_pytest\\runner.py:310: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nD:\\Python37\\lib\\site-packages\\_pytest\\runner.py:256: in <lambda>\n    lambda: ihook(item=item, **kwds), when=when, reraise=reraise\nD:\\Python37\\lib\\site-packages\\pluggy\\hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\nD:\\Python37\\lib\\site-packages\\pluggy\\manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\nD:\\Python37\\lib\\site-packages\\pluggy\\manager.py:87: in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\nD:\\Python37\\lib\\site-packages\\_pytest\\runner.py:171: in pytest_runtest_call\n    raise e\nD:\\Python37\\lib\\site-packages\\_pytest\\runner.py:163: in pytest_runtest_call\n    item.runtest()\nD:\\Python37\\lib\\site-packages\\_pytest\\python.py:1627: in runtest\n    self.ihook.pytest_pyfunc_call(pyfuncitem=self)\nD:\\Python37\\lib\\site-packages\\pluggy\\hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\nD:\\Python37\\lib\\site-packages\\pluggy\\manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\nD:\\Python37\\lib\\site-packages\\pluggy\\manager.py:87: in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\npyfuncitem = <Function test_1>\n\n    @hookimpl(trylast=True)\n    def pytest_pyfunc_call(pyfuncitem: \"Function\") -> Optional[object]:\n        testfunction = pyfuncitem.obj\n        if is_async_function(testfunction):\n            async_warn_and_skip(pyfuncitem.nodeid)\n        funcargs = pyfuncitem.funcargs\n        testargs = {arg: funcargs[arg] for arg in pyfuncitem._fixtureinfo.argnames}\n>       result = testfunction(**testargs)\nE       TypeError: test_1() takes 0 positional arguments but 1 was given\n\nD:\\Python37\\lib\\site-packages\\_pytest\\python.py:184: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "只是一个二级标签"
+  }, {
+    "name" : "feature",
+    "value" : "接口测试，只是用一级标签"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "alluretest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAllure"
+  }, {
+    "name" : "host",
+    "value" : "PC-20210109YDJH"
+  }, {
+    "name" : "thread",
+    "value" : "1368-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.alluretest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8e061da86b65c4c.json",
+  "parameterValues" : [ ]
+}

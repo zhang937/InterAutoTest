@@ -1,0 +1,153 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "alluretest",
+      "children" : [ {
+        "name" : "测试用例标题1",
+        "uid" : "af1b93c32233145d",
+        "parentUid" : "dadec8e417f353fea4c2e19fa42512af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659437794114,
+          "stop" : 1659437794114,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题2",
+        "uid" : "a82ae03a68f04c24",
+        "parentUid" : "dadec8e417f353fea4c2e19fa42512af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659437794118,
+          "stop" : 1659437794118,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题3",
+        "uid" : "1a118d1d8ad1f605",
+        "parentUid" : "dadec8e417f353fea4c2e19fa42512af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659438201287,
+          "stop" : 1659438201287,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestAllure",
+        "children" : [ {
+          "name" : "测试用例标题1",
+          "uid" : "691bcff54298b97a",
+          "parentUid" : "f49b49c4b93bc19eac287ed857685b3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1659439344126,
+            "stop" : 1659439344127,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 4,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "测试用例标题2",
+          "uid" : "b5df6bc5a5e82de4",
+          "parentUid" : "f49b49c4b93bc19eac287ed857685b3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1659439344130,
+            "stop" : 1659439344131,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 4,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "this Test Name is  Zhangsan",
+          "uid" : "47717fbde818b43b",
+          "parentUid" : "f49b49c4b93bc19eac287ed857685b3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1659439615157,
+            "stop" : 1659439615157,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "'Zhangsan'" ]
+        }, {
+          "name" : "this Test Name is  lisi",
+          "uid" : "be8244924dd92b8e",
+          "parentUid" : "f49b49c4b93bc19eac287ed857685b3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1659439615163,
+            "stop" : 1659439615163,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "'lisi'" ]
+        }, {
+          "name" : "测试用例标题3",
+          "uid" : "82e3813cf6d9a1f4",
+          "parentUid" : "f49b49c4b93bc19eac287ed857685b3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1659440630075,
+            "stop" : 1659440630075,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 6,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f49b49c4b93bc19eac287ed857685b3a"
+      } ],
+      "uid" : "dadec8e417f353fea4c2e19fa42512af"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

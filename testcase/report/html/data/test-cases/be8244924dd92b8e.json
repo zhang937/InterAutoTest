@@ -1,0 +1,66 @@
+{
+  "uid" : "be8244924dd92b8e",
+  "name" : "this Test Name is  lisi",
+  "fullName" : "testcase.alluretest.TestAllure#test_4",
+  "historyId" : "d082cca0baeb9d061d6d5008d41ee0ff",
+  "time" : {
+    "start" : 1659439615163,
+    "stop" : 1659439615163,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "接口测试，只是用一级标签"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "alluretest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAllure"
+  }, {
+    "name" : "host",
+    "value" : "PC-20210109YDJH"
+  }, {
+    "name" : "thread",
+    "value" : "15336-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.alluretest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "'lisi'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be8244924dd92b8e.json",
+  "parameterValues" : [ "'lisi'" ]
+}

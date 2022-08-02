@@ -1,0 +1,487 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-20210109YDJH",
+    "children" : [ {
+      "name" : "1368-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题3",
+        "uid" : "1a28ae6a1afa8398",
+        "parentUid" : "b826a0b5cfcbd51c15ef979084b95709",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659438661578,
+          "stop" : 1659438661578,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题3",
+        "uid" : "71583d0415f76cb1",
+        "parentUid" : "b826a0b5cfcbd51c15ef979084b95709",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659438651281,
+          "stop" : 1659438651281,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题1",
+        "uid" : "97d35c8d18fb9f74",
+        "parentUid" : "b826a0b5cfcbd51c15ef979084b95709",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659438640622,
+          "stop" : 1659438640622,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题2",
+        "uid" : "6896dd458ae67d7f",
+        "parentUid" : "b826a0b5cfcbd51c15ef979084b95709",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659438645933,
+          "stop" : 1659438645933,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题3",
+        "uid" : "3fa1e880f7d236ad",
+        "parentUid" : "b826a0b5cfcbd51c15ef979084b95709",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659438656431,
+          "stop" : 1659438656431,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题2",
+        "uid" : "7550476813140f0c",
+        "parentUid" : "b826a0b5cfcbd51c15ef979084b95709",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659438640772,
+          "stop" : 1659438640772,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题1",
+        "uid" : "a8e061da86b65c4c",
+        "parentUid" : "b826a0b5cfcbd51c15ef979084b95709",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659438630227,
+          "stop" : 1659438630227,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题1",
+        "uid" : "fbf6cfdb16553dbf",
+        "parentUid" : "b826a0b5cfcbd51c15ef979084b95709",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659438635475,
+          "stop" : 1659438635475,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题2",
+        "uid" : "e134dc97647d3f38",
+        "parentUid" : "b826a0b5cfcbd51c15ef979084b95709",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659438651092,
+          "stop" : 1659438651092,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b826a0b5cfcbd51c15ef979084b95709"
+    }, {
+      "name" : "15336-MainThread",
+      "children" : [ {
+        "name" : "this Test Name is  lisi",
+        "uid" : "be8244924dd92b8e",
+        "parentUid" : "e21ed5d22fc283fd7d0f180929488e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659439615163,
+          "stop" : 1659439615163,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'lisi'" ]
+      }, {
+        "name" : "this Test Name is  Zhangsan",
+        "uid" : "47717fbde818b43b",
+        "parentUid" : "e21ed5d22fc283fd7d0f180929488e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659439615157,
+          "stop" : 1659439615157,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Zhangsan'" ]
+      } ],
+      "uid" : "e21ed5d22fc283fd7d0f180929488e1f"
+    }, {
+      "name" : "12936-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题3",
+        "uid" : "1a118d1d8ad1f605",
+        "parentUid" : "0a5385d4243b1d4a1842632b09d5d118",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659438201287,
+          "stop" : 1659438201287,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0a5385d4243b1d4a1842632b09d5d118"
+    }, {
+      "name" : "5108-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题3",
+        "uid" : "1881946c39ddcc59",
+        "parentUid" : "368b635154b8ef69e4ac8dfc5b900d61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659438675276,
+          "stop" : 1659438675276,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题2",
+        "uid" : "247cbeab4bf880e1",
+        "parentUid" : "368b635154b8ef69e4ac8dfc5b900d61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659438675272,
+          "stop" : 1659438675272,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题1",
+        "uid" : "3bc07252c69be924",
+        "parentUid" : "368b635154b8ef69e4ac8dfc5b900d61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659438675268,
+          "stop" : 1659438675268,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "368b635154b8ef69e4ac8dfc5b900d61"
+    }, {
+      "name" : "3964-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题3",
+        "uid" : "82e3813cf6d9a1f4",
+        "parentUid" : "695dc05b4deab4276aadb6db6428cfa5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659440630075,
+          "stop" : 1659440630075,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "695dc05b4deab4276aadb6db6428cfa5"
+    }, {
+      "name" : "6880-MainThread",
+      "children" : [ {
+        "name" : "test_3",
+        "uid" : "3ee3789f3fc38524",
+        "parentUid" : "b6b06634bce7c179b8da74a01f271b9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659437363054,
+          "stop" : 1659437363054,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_1",
+        "uid" : "9b015fbe97211acb",
+        "parentUid" : "b6b06634bce7c179b8da74a01f271b9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659437363046,
+          "stop" : 1659437363046,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_2",
+        "uid" : "d19a5e1c3c89d715",
+        "parentUid" : "b6b06634bce7c179b8da74a01f271b9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659437363050,
+          "stop" : 1659437363050,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b6b06634bce7c179b8da74a01f271b9a"
+    }, {
+      "name" : "5208-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题2",
+        "uid" : "b5df6bc5a5e82de4",
+        "parentUid" : "9a44755e0cf0d8b4b2557af811e130f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659439344130,
+          "stop" : 1659439344131,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题1",
+        "uid" : "691bcff54298b97a",
+        "parentUid" : "9a44755e0cf0d8b4b2557af811e130f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659439344126,
+          "stop" : 1659439344127,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题3",
+        "uid" : "dc75f92330c42a77",
+        "parentUid" : "9a44755e0cf0d8b4b2557af811e130f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659439344134,
+          "stop" : 1659439344134,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a44755e0cf0d8b4b2557af811e130f4"
+    }, {
+      "name" : "4272-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题1",
+        "uid" : "af1b93c32233145d",
+        "parentUid" : "089ed9f32ca39295a5ef30441b5144c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659437794114,
+          "stop" : 1659437794114,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题2",
+        "uid" : "a82ae03a68f04c24",
+        "parentUid" : "089ed9f32ca39295a5ef30441b5144c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659437794118,
+          "stop" : 1659437794118,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题3",
+        "uid" : "8042b816ebe5f211",
+        "parentUid" : "089ed9f32ca39295a5ef30441b5144c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659437794121,
+          "stop" : 1659437794121,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "089ed9f32ca39295a5ef30441b5144c3"
+    }, {
+      "name" : "8576-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题3",
+        "uid" : "9e903c215a9f7dc0",
+        "parentUid" : "0df7e48f1f12a4b1d792568868ea9f4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659440517636,
+          "stop" : 1659440517637,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0df7e48f1f12a4b1d792568868ea9f4a"
+    } ],
+    "uid" : "f5833da1921d36558e23083e6834c2a1"
+  } ]
+}

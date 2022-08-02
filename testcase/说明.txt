@@ -16,7 +16,10 @@ pytest 参数化：
 
 断言:assert
 
-
+allure 报告生成命令,在用例对应路径下执行：
+allure generate report/result -o report/html
+重新生成：
+allure generate report/result -o report/html --clean
 
 [pytest]
 addopts = -s --html=./report/report.html --reruns 2 --reruns-delay=5

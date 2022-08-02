@@ -1,0 +1,81 @@
+[ {
+  "uid" : "47717fbde818b43b",
+  "name" : "this Test Name is  Zhangsan",
+  "time" : {
+    "start" : 1659439615157,
+    "stop" : 1659439615157,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "691bcff54298b97a",
+  "name" : "测试用例标题1",
+  "time" : {
+    "start" : 1659439344126,
+    "stop" : 1659439344127,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "1a118d1d8ad1f605",
+  "name" : "测试用例标题3",
+  "time" : {
+    "start" : 1659438201287,
+    "stop" : 1659438201287,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5df6bc5a5e82de4",
+  "name" : "测试用例标题2",
+  "time" : {
+    "start" : 1659439344130,
+    "stop" : 1659439344131,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "82e3813cf6d9a1f4",
+  "name" : "测试用例标题3",
+  "time" : {
+    "start" : 1659440630075,
+    "stop" : 1659440630075,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "af1b93c32233145d",
+  "name" : "测试用例标题1",
+  "time" : {
+    "start" : 1659437794114,
+    "stop" : 1659437794114,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a82ae03a68f04c24",
+  "name" : "测试用例标题2",
+  "time" : {
+    "start" : 1659437794118,
+    "stop" : 1659437794118,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be8244924dd92b8e",
+  "name" : "this Test Name is  lisi",
+  "time" : {
+    "start" : 1659439615163,
+    "stop" : 1659439615163,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
