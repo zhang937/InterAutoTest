@@ -5,3 +5,9 @@ BASE:
     url: "http://211.103.136.242:8064"
     case_file: "requeststest.xlsx"
     case_sheet: "美多商城接口测试用例"
+email:
+  smtpserver: "smtp.qq.com"
+  smptport: "465"
+  useremail: "mydockerzhang@qq.com"
+  password: "qwqluxsquogwjefe"
+  reseremail: "mydockerzhang@qq.com"

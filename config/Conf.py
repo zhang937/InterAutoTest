@@ -80,12 +80,18 @@ class ConfigYaml:
         :return:
         """
         return self.config["BASE"]["test"]["case_sheet"]
+    def get_email_info(self):
+        """
+
+        :return:
+        """
+        return self.config["email"]
 
 if __name__ == '__main__':
     conf_data=ConfigYaml().get_conf_log()
     # conf_data1=ConfigYaml().get_conf_log_extension()
     # conf_data2=ConfigYaml().get_db_conf_info('env-1')
-    conf_data1=ConfigYaml().get_execl_file()
+    conf_data1=ConfigYaml().get_email_info()
     conf_data2=ConfigYaml().get_execl_sheet()
     print(conf_data1,conf_data2)
 

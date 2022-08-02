@@ -1,10 +1,14 @@
 import re
 
 from config.Conf import ConfigYaml
+from utils.EmailUtil import SendEmail
+from utils.LogUtil import my_log
 from utils.MysqlUtil import MysqlUtil
 from utils.AssertUtil import AssertUtil
 
+import subprocess
 
+log=my_log()
 def get_item_by_key(obj, key, result=None):
     """
     获取接口请求响应中指定key及其内容
@@ -111,6 +115,25 @@ def params_find(headers, cookies):
         cookies=res_find( cookies )
     return headers, cookies
 
+def allure_report(report_path,report_html):
+    allure_cmd="allure generate {} -o {} --clean".format(report_path,report_html)
+
+    try:
+        subprocess.call(allure_cmd,shell=True)
+    except:
+        log.error("执行用例失败，请检查测试环境")
+        raise
+
+def send_email(report_html_path,title,conntent):
+    tst=ConfigYaml().get_email_info()
+    em=SendEmail( smtp_addr=tst["smtpserver"],
+                  username=tst["useremail"],
+                  password=tst["password"],
+                  recv=tst["reseremail"],
+                  title=title,
+                  conntent=conntent,
+                  file=report_html_path)
+    em.send_mail()
 
 if __name__ == '__main__':
     print( res_sub( '{"Authorization":"JWT ${token}$"}', '333333' ) )

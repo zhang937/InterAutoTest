@@ -23,6 +23,11 @@ allure generate report/result -o report/html --clean
 
 邮箱接收服务：imap.qq.com
 
+
+项目所使用到的第三方插件：
+pip freeze > requirements.txt
+
+
 [pytest]
 addopts = -s --html=./report/report.html --reruns 2 --reruns-delay=5
 #执行目录
