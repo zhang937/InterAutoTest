@@ -21,6 +21,8 @@ allure generate report/result -o report/html
 重新生成：
 allure generate report/result -o report/html --clean
 
+邮箱接收服务：imap.qq.com
+
 [pytest]
 addopts = -s --html=./report/report.html --reruns 2 --reruns-delay=5
 #执行目录
