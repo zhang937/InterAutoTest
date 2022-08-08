@@ -40,5 +40,5 @@ class TestAllure:
 
 
 if __name__ == '__main__':
-    # pytest.main( ["alluretest.py"] )
-    subprocess.call(["ls",'-l'])
+    pytest.main( ["alluretest.py"] )
+    # subprocess.call(["ls",'-l'])
